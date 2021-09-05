@@ -1,0 +1,65 @@
+@import 'libs/macro';
+
+body {
+  margin: 0;
+  font-family: 'Inter';
+  background-color: #e7f6ff;
+}
+
+.wrapper {
+  background-color: #fff;
+  max-width: 1080px;
+  margin: 50px auto;
+  box-shadow: 0 10px 20px rgba(#000, .04);
+  border-radius: 20px;
+}
+
+header {
+  border-bottom: 1px solid  #eaeaea;
+  img {
+    margin-right: 15px;
+  }
+  
+  p,
+  h3 {
+    margin: 0;
+  }
+}
+
+.content {
+  h1 {
+    margin: 0;
+  }
+}
+
+.card {
+  border: 1px solid  #f3f3f3;
+  padding: 30px;
+  width: 220px;
+  border-radius: 40px;
+  margin: 0 15px;
+  
+  span {
+    text-transform: uppercase;
+    font-size: 13px;
+    opacity: .5;
+  }
+  
+  b {
+    font-size: 13px;
+  }
+  
+  h5 {
+    font-weight: 400;
+    font-size: 14px;
+  }
+}
+
+.button {
+  width: 32px;
+  height: 32px;
+  background-color: #fff;
+  box-sizing: border-box;
+  border-radius: 8px;
+  border: 1px solid #f2f2f2;
+}
