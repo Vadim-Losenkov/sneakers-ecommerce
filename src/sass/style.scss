@@ -2,8 +2,10 @@
 
 body {
   margin: 0;
-  font-family: 'Inter';
   background-color: #e7f6ff;
+}
+* {
+  font-family: 'Inter';
 }
 
 .wrapper {
@@ -32,29 +34,6 @@ header {
   }
 }
 
-.card {
-  border: 1px solid  #f3f3f3;
-  padding: 30px;
-  width: 220px;
-  border-radius: 40px;
-  margin: 0 15px;
-  
-  span {
-    text-transform: uppercase;
-    font-size: 13px;
-    opacity: .5;
-  }
-  
-  b {
-    font-size: 13px;
-  }
-  
-  h5 {
-    font-weight: 400;
-    font-size: 14px;
-  }
-}
-
 .button {
   width: 32px;
   height: 32px;
@@ -62,4 +41,136 @@ header {
   box-sizing: border-box;
   border-radius: 8px;
   border: 1px solid #f2f2f2;
+}
+
+.search-block {
+  border: 1px solid  #f3f3f3;
+  padding: 10px;
+  padding: 0 15px;
+  border-radius: 10px;
+    
+  input {
+    border: 0;
+    padding: 13px;
+    font-size: 16px;
+    width: 200px;
+  }
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  position: absolute;
+  background-color: rgba(#000, .5);
+  z-index: 1;
+}
+
+.drawer {
+  width: 420px;
+  position: absolute;
+  padding: 30px;
+  right: 0;
+  background-color: #fff;
+  height: 100%;
+  box-shadow: -10px 4px 24px rgba(#000, .1);
+  display: flex;
+  flex-direction: column;
+  h2 {
+    margin: 0;
+  }
+  .items {
+    flex: 1;
+  }
+}
+
+
+.items {
+  overflow: auto;
+  margin-bottom: 50px;
+}
+
+.cartItem {
+  border: 1px solid #f3f3f3;
+  border-radius: 20px;
+  overflow: hidden;
+  padding: 20px;
+  
+  p {
+    font-size: 16px;
+    margin: 0;
+  }
+  b {
+    font-size: 14px;
+  }
+  
+  .removeCartBtn {
+    opacity: .5;
+    transition: .2s;
+    cursor: pointer;
+    &:hover {
+      opacity: 1;
+    }
+  }
+  
+  .cartItemImage {
+    width: 70px;
+    height: 70px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 0 -3px;
+    margin-right: 20px;
+  }
+  
+}
+
+.cartTotalBlock {
+  ul {
+    margin-bottom: 40px !important;
+  }
+  li {
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 20px;
+    div {
+      height: 1px;
+      margin: 0 7px;
+      margin-top: -5px;
+      flex: 1;
+      border-bottom: 1px dashed #dfdfdf;
+    }
+  }
+  .greenButton {
+    img {
+      position: absolute;
+      transition: transform .3s;
+      right: 30px;
+      top: 20px;
+    }
+    &:hover {
+      img {
+        transform: translateX(5px);
+      }
+    }
+  }
+}
+
+.greenButton {
+  position: relative;
+  width: 100%;
+  border: none;
+  background: #9dd558;
+  border-radius: 18px;
+  font-weight: 500;
+  color: #fff;
+  font-size: 16px;
+  transition: background .2s;
+  height: 55px;
+  &:hover {
+    background: lighten(#9dd558, 10%);
+  }
+  &:active {
+    background: darken(#9dd558, 10%);
+  }
 }

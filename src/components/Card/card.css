@@ -1,0 +1,30 @@
+
+.card {
+  border: 1px solid #f3f3f3;
+  padding: 30px;
+  width: 220px;
+  border-radius: 40px;
+  margin: 0 15px;
+  transition: all 0.3s;
+  background-color: #000;
+}
+.card:hover {
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.06);
+  transform: translateY(-5px);
+}
+.card .favorite {
+  position: absolute;
+  cursor: pointer;
+}
+.card span {
+  text-transform: uppercase;
+  font-size: 13px;
+  opacity: 0.5;
+}
+.card b {
+  font-size: 13px;
+}
+.card h5 {
+  font-weight: 400;
+  font-size: 14px;
+}
