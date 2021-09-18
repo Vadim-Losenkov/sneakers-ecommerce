@@ -15,9 +15,11 @@ class ChangeHandler(FileSystemEventHandler):
       
     def on_modified(self, event):
         if event.is_directory==True:
-          if event.src_path=='./src/sass':
+          if event.src_path=='./src/changes':
             print(event)
-            list_files = subprocess.run(["sass", "src/sass/style.scss", "src/index.css"])
+            list_files = subprocess.run(["git", "add", "."])
+            list_files = subprocess.run(["git", "commit", "-m", '"changes"'])
+            list_files = subprocess.run(["git", "push", "-u", "origin", "master"])
 
     def on_deleted(self, event):
         pass
