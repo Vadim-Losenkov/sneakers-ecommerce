@@ -7,9 +7,9 @@ function Card(props) {
   return (
     <div className="card">
       <div className="favorite">
-        <img src="public/img/heart-unliked.svg" alt="image" />
+        <img src="public/img/heart-unliked.svg" alt="component-button" />
       </div>
-      <img width={133} height={112} src={props.imageUrl} alt="image" />
+      <img width={133} height={112} src={props.imageUrl} alt="component-button" />
       <h5>{props.name}</h5>
       <div className="d-flex justify-between align-center">
         <div className="d-flex flex-column">
@@ -17,7 +17,7 @@ function Card(props) {
           <b>{props.price} руб.</b>
         </div>
         <button className="button" onClick={props.onClick}>
-          <img width={11} height={11} src="public/img/plus.svg" alt="image" />
+          <img width={11} height={11} src="public/img/plus.svg" alt="component-button" />
         </button>
       </div>
     </div>

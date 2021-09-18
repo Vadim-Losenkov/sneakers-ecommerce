@@ -4,7 +4,7 @@ function Drawer() {
   return (
     <div style={{display: 'none'}} className="overlay">
       <div className="drawer">
-        <h2 className="mb-30 d-flex justify-between align-center">Корзина <img className="removeCartBtn cu-p" src="public/img/btn-remove.svg" alt="image" /></h2>
+        <h2 className="mb-30 d-flex justify-between align-center">Корзина <img className="removeCartBtn cu-p" src="public/img/btn-remove.svg" alt="btn-remove" /></h2>
         <div className="items">
           <div className="cartItem d-flex align-center mb-20">
             <div style={{ backgroundImage: 'url("public/img/sneakers/1.jpg")' }} className="cartItemImage"></div>
@@ -16,7 +16,7 @@ function Drawer() {
                 12999 руб.
               </b>
             </div>
-            <img className="removeCartBtn" src="public/img/btn-remove.svg" alt="image" />
+            <img className="removeCartBtn" src="public/img/btn-remove.svg" alt="btn-remove" />
           </div>
           <div className="cartItem d-flex align-center mb-20">
             <div style={{ backgroundImage: 'url("public/img/sneakers/1.jpg")' }} className="cartItemImage"></div>
@@ -28,7 +28,7 @@ function Drawer() {
                 12999 руб.
               </b>
             </div>
-            <img className="removeCartBtn" src="public/img/btn-remove.svg" alt="image" />
+            <img className="removeCartBtn" src="public/img/btn-remove.svg" alt="btn-remove" />
           </div>
           <div className="cartItem d-flex align-center mb-20">
             <div style={{ backgroundImage: 'url("public/img/sneakers/1.jpg")' }} className="cartItemImage"></div>
@@ -40,7 +40,7 @@ function Drawer() {
                 12999 руб.
               </b>
             </div>
-            <img className="removeCartBtn" src="public/img/btn-remove.svg" alt="image" />
+            <img className="removeCartBtn" src="public/img/btn-remove.svg" alt="btn-remove" />
           </div>
           <div className="cartItem d-flex align-center mb-20">
             <div style={{ backgroundImage: 'url("public/img/sneakers/1.jpg")' }} className="cartItemImage"></div>
@@ -52,7 +52,7 @@ function Drawer() {
                 12999 руб.
               </b>
             </div>
-            <img className="removeCartBtn" src="public/img/btn-remove.svg" alt="image" />
+            <img className="removeCartBtn" src="public/img/btn-remove.svg" alt="btn-remove" />
           </div>
           <div className="cartItem d-flex align-center mb-20">
             <div style={{ backgroundImage: 'url("public/img/sneakers/1.jpg")' }} className="cartItemImage"></div>
@@ -64,7 +64,7 @@ function Drawer() {
                 12999 руб.
               </b>
             </div>
-            <img className="removeCartBtn" src="public/img/btn-remove.svg" alt="image" />
+            <img className="removeCartBtn" src="public/img/btn-remove.svg" alt="btn-remove" />
           </div>
           <div className="cartItem d-flex align-center mb-20">
             <div style={{ backgroundImage: 'url("public/img/sneakers/1.jpg")' }} className="cartItemImage"></div>
@@ -76,7 +76,7 @@ function Drawer() {
                 12999 руб.
               </b>
             </div>
-            <img className="removeCartBtn" src="public/img/btn-remove.svg" alt="image" />
+            <img className="removeCartBtn" src="public/img/btn-remove.svg" alt="btn-remove" />
           </div>
           <div className="cartItem d-flex align-center mb-20">
             <div style={{ backgroundImage: 'url("public/img/sneakers/1.jpg")' }} className="cartItemImage"></div>
@@ -88,7 +88,7 @@ function Drawer() {
                 12999 руб.
               </b>
             </div>
-            <img className="removeCartBtn" src="public/img/btn-remove.svg" alt="image" />
+            <img className="removeCartBtn" src="public/img/btn-remove.svg" alt="btn-remove" />
           </div>
           <div className="cartItem d-flex align-center mb-20">
             <div style={{ backgroundImage: 'url("public/img/sneakers/1.jpg")' }} className="cartItemImage"></div>
@@ -100,7 +100,7 @@ function Drawer() {
                 12999 руб.
               </b>
             </div>
-            <img className="removeCartBtn" src="public/img/btn-remove.svg" alt="image" />
+            <img className="removeCartBtn" src="public/img/btn-remove.svg" alt="btn-remove" />
           </div>
           <div className="cartItem d-flex align-center mb-20">
             <div style={{ backgroundImage: 'url("public/img/sneakers/1.jpg")' }} className="cartItemImage"></div>
@@ -112,7 +112,7 @@ function Drawer() {
                 12999 руб.
               </b>
             </div>
-            <img className="removeCartBtn" src="public/img/btn-remove.svg" alt="image" />
+            <img className="removeCartBtn" src="public/img/btn-remove.svg" alt="btn-remove" />
           </div>
           <div className="cartItem d-flex align-center mb-20">
             <div style={{ backgroundImage: 'url("public/img/sneakers/1.jpg")' }} className="cartItemImage"></div>
@@ -124,7 +124,7 @@ function Drawer() {
                 12999 руб.
               </b>
             </div>
-            <img className="removeCartBtn" src="public/img/btn-remove.svg" alt="image" />
+            <img className="removeCartBtn" src="public/img/btn-remove.svg" alt="btn-remove" />
           </div>
           <div className="cartItem d-flex align-center mb-20">
             <div style={{ backgroundImage: 'url("public/img/sneakers/1.jpg")' }} className="cartItemImage"></div>
@@ -136,7 +136,7 @@ function Drawer() {
                 12999 руб.
               </b>
             </div>
-            <img className="removeCartBtn" src="public/img/btn-remove.svg" alt="image" />
+            <img className="removeCartBtn" src="public/img/btn-remove.svg" alt="btn-remove" />
           </div>
           <div className="cartItem d-flex align-center mb-20">
             <div style={{ backgroundImage: 'url("public/img/sneakers/1.jpg")' }} className="cartItemImage"></div>
@@ -148,7 +148,7 @@ function Drawer() {
                 12999 руб.
               </b>
             </div>
-            <img className="removeCartBtn" src="public/img/btn-remove.svg" alt="image" />
+            <img className="removeCartBtn" src="public/img/btn-remove.svg" alt="btn-remove" />
           </div>
           <div className="cartItem d-flex align-center mb-20">
             <div style={{ backgroundImage: 'url("public/img/sneakers/1.jpg")' }} className="cartItemImage"></div>
@@ -160,7 +160,7 @@ function Drawer() {
                 12999 руб.
               </b>
             </div>
-            <img className="removeCartBtn" src="public/img/btn-remove.svg" alt="image" />
+            <img className="removeCartBtn" src="public/img/btn-remove.svg" alt="btn-remove" />
           </div>
           <div className="cartItem d-flex align-center mb-20">
             <div style={{ backgroundImage: 'url("public/img/sneakers/1.jpg")' }} className="cartItemImage"></div>
@@ -172,7 +172,7 @@ function Drawer() {
                 12999 руб.
               </b>
             </div>
-            <img className="removeCartBtn" src="public/img/btn-remove.svg" alt="image" />
+            <img className="removeCartBtn" src="public/img/btn-remove.svg" alt="btn-remove" />
           </div>
         </div>
         <div className="cartTotalBlock">
