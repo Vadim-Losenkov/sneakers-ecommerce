@@ -1,7 +1,7 @@
 import React from 'react';
-// import Card from './components/Card/index.js';
-// import Drawer from './components/Drawer.js';
-// import Header from './components/Header.js';
+import Card from './components/Card/index.js';
+import Drawer from './components/Drawer.js';
+import Header from './components/Header.js';
 
 const arr = [
   {name: 'Мужские Кроссовки Nike Blazer Mid Suede', price: 12999, imageUrl: 'public/img/sneakers/1.jpg'},
@@ -13,22 +13,22 @@ const arr = [
 function App() {
   return (
     <div className="wrapper clear">
-      {/* <Drawer /> */}
-      {/* <Header /> */}
+      <Drawer />
+      <Header />
       <div className="content p-40">
         <div className="d-flex justify-between align-center mb-40">
           <h1>Все кросовки</h1>
           <div className="search-block d-flex">
-            <img src="public/img/search.svg" alt="search" />
+            <img src="/img/search.svg" alt="search" />
             <input placeholder="поиск..." />
           </div>
         </div>
         <div className="d-flex">
-          {/* {
+          {
             arr.map((obj) => (
               <Card name={obj.name} imageUrl={obj.imageUrl} price={obj.price} onClick={() => console.log(obj)} />
             ))
-          } */}
+          }
         </div>
       </div>
     </div>
