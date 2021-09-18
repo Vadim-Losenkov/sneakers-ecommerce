@@ -4,10 +4,10 @@ function Drawer() {
   return (
     <div style={{display: 'none'}} className="overlay">
       <div className="drawer">
-        <h2 className="mb-30 d-flex justify-between align-center">Корзина <img className="removeCartBtn cu-p" src="public/img/btn-remove.svg" alt="btn-remove" /></h2>
+        <h2 className="mb-30 d-flex justify-between align-center">Корзина <img className="removeCartBtn cu-p" src="/img/btn-remove.svg" alt="btn-remove" /></h2>
         <div className="items">
           <div className="cartItem d-flex align-center mb-20">
-            <div style={{ backgroundImage: 'url("public/img/sneakers/1.jpg")' }} className="cartItemImage"></div>
+            <div style={{ backgroundImage: 'url("/img/sneakers/1.jpg")' }} className="cartItemImage"></div>
             <div className="mr-20 flex">
               <p className="mb-5">
                 Мужские Кроссовки Nike Blazer Mid Suede
@@ -16,10 +16,10 @@ function Drawer() {
                 12999 руб.
               </b>
             </div>
-            <img className="removeCartBtn" src="public/img/btn-remove.svg" alt="btn-remove" />
+            <img className="removeCartBtn" src="/img/btn-remove.svg" alt="btn-remove" />
           </div>
           <div className="cartItem d-flex align-center mb-20">
-            <div style={{ backgroundImage: 'url("public/img/sneakers/1.jpg")' }} className="cartItemImage"></div>
+            <div style={{ backgroundImage: 'url("/img/sneakers/1.jpg")' }} className="cartItemImage"></div>
             <div className="mr-20 flex">
               <p className="mb-5">
                 Мужские Кроссовки Nike Blazer Mid Suede
@@ -28,10 +28,10 @@ function Drawer() {
                 12999 руб.
               </b>
             </div>
-            <img className="removeCartBtn" src="public/img/btn-remove.svg" alt="btn-remove" />
+            <img className="removeCartBtn" src="/img/btn-remove.svg" alt="btn-remove" />
           </div>
           <div className="cartItem d-flex align-center mb-20">
-            <div style={{ backgroundImage: 'url("public/img/sneakers/1.jpg")' }} className="cartItemImage"></div>
+            <div style={{ backgroundImage: 'url("/img/sneakers/1.jpg")' }} className="cartItemImage"></div>
             <div className="mr-20 flex">
               <p className="mb-5">
                 Мужские Кроссовки Nike Blazer Mid Suede
@@ -40,10 +40,10 @@ function Drawer() {
                 12999 руб.
               </b>
             </div>
-            <img className="removeCartBtn" src="public/img/btn-remove.svg" alt="btn-remove" />
+            <img className="removeCartBtn" src="/img/btn-remove.svg" alt="btn-remove" />
           </div>
           <div className="cartItem d-flex align-center mb-20">
-            <div style={{ backgroundImage: 'url("public/img/sneakers/1.jpg")' }} className="cartItemImage"></div>
+            <div style={{ backgroundImage: 'url("/img/sneakers/1.jpg")' }} className="cartItemImage"></div>
             <div className="mr-20 flex">
               <p className="mb-5">
                 Мужские Кроссовки Nike Blazer Mid Suede
@@ -52,10 +52,10 @@ function Drawer() {
                 12999 руб.
               </b>
             </div>
-            <img className="removeCartBtn" src="public/img/btn-remove.svg" alt="btn-remove" />
+            <img className="removeCartBtn" src="/img/btn-remove.svg" alt="btn-remove" />
           </div>
           <div className="cartItem d-flex align-center mb-20">
-            <div style={{ backgroundImage: 'url("public/img/sneakers/1.jpg")' }} className="cartItemImage"></div>
+            <div style={{ backgroundImage: 'url("/img/sneakers/1.jpg")' }} className="cartItemImage"></div>
             <div className="mr-20 flex">
               <p className="mb-5">
                 Мужские Кроссовки Nike Blazer Mid Suede
@@ -64,10 +64,10 @@ function Drawer() {
                 12999 руб.
               </b>
             </div>
-            <img className="removeCartBtn" src="public/img/btn-remove.svg" alt="btn-remove" />
+            <img className="removeCartBtn" src="/img/btn-remove.svg" alt="btn-remove" />
           </div>
           <div className="cartItem d-flex align-center mb-20">
-            <div style={{ backgroundImage: 'url("public/img/sneakers/1.jpg")' }} className="cartItemImage"></div>
+            <div style={{ backgroundImage: 'url("/img/sneakers/1.jpg")' }} className="cartItemImage"></div>
             <div className="mr-20 flex">
               <p className="mb-5">
                 Мужские Кроссовки Nike Blazer Mid Suede
@@ -76,10 +76,10 @@ function Drawer() {
                 12999 руб.
               </b>
             </div>
-            <img className="removeCartBtn" src="public/img/btn-remove.svg" alt="btn-remove" />
+            <img className="removeCartBtn" src="/img/btn-remove.svg" alt="btn-remove" />
           </div>
           <div className="cartItem d-flex align-center mb-20">
-            <div style={{ backgroundImage: 'url("public/img/sneakers/1.jpg")' }} className="cartItemImage"></div>
+            <div style={{ backgroundImage: 'url("/img/sneakers/1.jpg")' }} className="cartItemImage"></div>
             <div className="mr-20 flex">
               <p className="mb-5">
                 Мужские Кроссовки Nike Blazer Mid Suede
@@ -88,10 +88,10 @@ function Drawer() {
                 12999 руб.
               </b>
             </div>
-            <img className="removeCartBtn" src="public/img/btn-remove.svg" alt="btn-remove" />
+            <img className="removeCartBtn" src="/img/btn-remove.svg" alt="btn-remove" />
           </div>
           <div className="cartItem d-flex align-center mb-20">
-            <div style={{ backgroundImage: 'url("public/img/sneakers/1.jpg")' }} className="cartItemImage"></div>
+            <div style={{ backgroundImage: 'url("/img/sneakers/1.jpg")' }} className="cartItemImage"></div>
             <div className="mr-20 flex">
               <p className="mb-5">
                 Мужские Кроссовки Nike Blazer Mid Suede
@@ -100,10 +100,10 @@ function Drawer() {
                 12999 руб.
               </b>
             </div>
-            <img className="removeCartBtn" src="public/img/btn-remove.svg" alt="btn-remove" />
+            <img className="removeCartBtn" src="/img/btn-remove.svg" alt="btn-remove" />
           </div>
           <div className="cartItem d-flex align-center mb-20">
-            <div style={{ backgroundImage: 'url("public/img/sneakers/1.jpg")' }} className="cartItemImage"></div>
+            <div style={{ backgroundImage: 'url("/img/sneakers/1.jpg")' }} className="cartItemImage"></div>
             <div className="mr-20 flex">
               <p className="mb-5">
                 Мужские Кроссовки Nike Blazer Mid Suede
@@ -112,10 +112,10 @@ function Drawer() {
                 12999 руб.
               </b>
             </div>
-            <img className="removeCartBtn" src="public/img/btn-remove.svg" alt="btn-remove" />
+            <img className="removeCartBtn" src="/img/btn-remove.svg" alt="btn-remove" />
           </div>
           <div className="cartItem d-flex align-center mb-20">
-            <div style={{ backgroundImage: 'url("public/img/sneakers/1.jpg")' }} className="cartItemImage"></div>
+            <div style={{ backgroundImage: 'url("/img/sneakers/1.jpg")' }} className="cartItemImage"></div>
             <div className="mr-20 flex">
               <p className="mb-5">
                 Мужские Кроссовки Nike Blazer Mid Suede
@@ -124,10 +124,10 @@ function Drawer() {
                 12999 руб.
               </b>
             </div>
-            <img className="removeCartBtn" src="public/img/btn-remove.svg" alt="btn-remove" />
+            <img className="removeCartBtn" src="/img/btn-remove.svg" alt="btn-remove" />
           </div>
           <div className="cartItem d-flex align-center mb-20">
-            <div style={{ backgroundImage: 'url("public/img/sneakers/1.jpg")' }} className="cartItemImage"></div>
+            <div style={{ backgroundImage: 'url("/img/sneakers/1.jpg")' }} className="cartItemImage"></div>
             <div className="mr-20 flex">
               <p className="mb-5">
                 Мужские Кроссовки Nike Blazer Mid Suede
@@ -136,10 +136,10 @@ function Drawer() {
                 12999 руб.
               </b>
             </div>
-            <img className="removeCartBtn" src="public/img/btn-remove.svg" alt="btn-remove" />
+            <img className="removeCartBtn" src="/img/btn-remove.svg" alt="btn-remove" />
           </div>
           <div className="cartItem d-flex align-center mb-20">
-            <div style={{ backgroundImage: 'url("public/img/sneakers/1.jpg")' }} className="cartItemImage"></div>
+            <div style={{ backgroundImage: 'url("/img/sneakers/1.jpg")' }} className="cartItemImage"></div>
             <div className="mr-20 flex">
               <p className="mb-5">
                 Мужские Кроссовки Nike Blazer Mid Suede
@@ -148,10 +148,10 @@ function Drawer() {
                 12999 руб.
               </b>
             </div>
-            <img className="removeCartBtn" src="public/img/btn-remove.svg" alt="btn-remove" />
+            <img className="removeCartBtn" src="/img/btn-remove.svg" alt="btn-remove" />
           </div>
           <div className="cartItem d-flex align-center mb-20">
-            <div style={{ backgroundImage: 'url("public/img/sneakers/1.jpg")' }} className="cartItemImage"></div>
+            <div style={{ backgroundImage: 'url("/img/sneakers/1.jpg")' }} className="cartItemImage"></div>
             <div className="mr-20 flex">
               <p className="mb-5">
                 Мужские Кроссовки Nike Blazer Mid Suede
@@ -160,10 +160,10 @@ function Drawer() {
                 12999 руб.
               </b>
             </div>
-            <img className="removeCartBtn" src="public/img/btn-remove.svg" alt="btn-remove" />
+            <img className="removeCartBtn" src="/img/btn-remove.svg" alt="btn-remove" />
           </div>
           <div className="cartItem d-flex align-center mb-20">
-            <div style={{ backgroundImage: 'url("public/img/sneakers/1.jpg")' }} className="cartItemImage"></div>
+            <div style={{ backgroundImage: 'url("/img/sneakers/1.jpg")' }} className="cartItemImage"></div>
             <div className="mr-20 flex">
               <p className="mb-5">
                 Мужские Кроссовки Nike Blazer Mid Suede
@@ -172,7 +172,7 @@ function Drawer() {
                 12999 руб.
               </b>
             </div>
-            <img className="removeCartBtn" src="public/img/btn-remove.svg" alt="btn-remove" />
+            <img className="removeCartBtn" src="/img/btn-remove.svg" alt="btn-remove" />
           </div>
         </div>
         <div className="cartTotalBlock">
@@ -188,7 +188,7 @@ function Drawer() {
               <b>1074 руб.</b>
             </li>
           </ul>
-          <button className="greenButton">Оформить заказ <img src="public/img/arrow.svg" alt="arrow"/></button>
+          <button className="greenButton">Оформить заказ <img src="/img/arrow.svg" alt="arrow"/></button>
         </div>
       </div>
     </div>

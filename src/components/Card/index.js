@@ -1,13 +1,13 @@
 import React from 'react';
-import './card.css'
+import styles from './Card.module.scss'
 
-// console.log(stylesCard);
+console.log(styles);
 
 function Card(props) {
   return (
-    <div className="card">
-      <div className="favorite">
-        <img src="public/img/heart-unliked.svg" alt="component-button" />
+    <div className={styles.card}>
+      <div className={styles.favorite}>
+        <img src="/img/heart-unliked.svg" alt="component-button" />
       </div>
       <img width={133} height={112} src={props.imageUrl} alt="component-button" />
       <h5>{props.name}</h5>
@@ -17,7 +17,7 @@ function Card(props) {
           <b>{props.price} руб.</b>
         </div>
         <button className="button" onClick={props.onClick}>
-          <img width={11} height={11} src="public/img/plus.svg" alt="component-button" />
+          <img width={11} height={11} src="/img/plus.svg" alt="component-button" />
         </button>
       </div>
     </div>

@@ -4,10 +4,10 @@ import Drawer from './components/Drawer.js';
 import Header from './components/Header.js';
 
 const arr = [
-  {name: 'Мужские Кроссовки Nike Blazer Mid Suede', price: 12999, imageUrl: 'public/img/sneakers/1.jpg'},
-  {name: 'Мужские Кроссовки Nike Air Max 270', price: 15600, imageUrl: 'public/img/sneakers/2.jpg'},
-  {name: 'Мужские Кроссовки Nike Air Max 270', price: 14000, imageUrl: 'public/img/sneakers/3.jpg'},
-  {name: 'Мужские Кроссовки Nike Air Max 270', price: 18999, imageUrl: 'public/img/sneakers/4.jpg'},
+  {name: 'Мужские Кроссовки Nike Blazer Mid Suede', price: 12999, imageUrl: '/img/sneakers/1.jpg'},
+  {name: 'Мужские Кроссовки Nike Air Max 270', price: 15600, imageUrl: '/img/sneakers/2.jpg'},
+  {name: 'Мужские Кроссовки Nike Air Max 270', price: 14000, imageUrl: '/img/sneakers/3.jpg'},
+  {name: 'Мужские Кроссовки Nike Air Max 270', price: 18999, imageUrl: '/img/sneakers/4.jpg'},
 ]
 
 function App() {
@@ -25,8 +25,8 @@ function App() {
         </div>
         <div className="d-flex">
           {
-            arr.map((obj) => (
-              <Card name={obj.name} imageUrl={obj.imageUrl} price={obj.price} onClick={() => console.log(obj)} />
+            arr.map((obj, index) => (
+              <Card key={`${obj.name}_${index}`} name={obj.name} imageUrl={obj.imageUrl} price={obj.price} onClick={() => console.log(obj)} />
             ))
           }
         </div>
