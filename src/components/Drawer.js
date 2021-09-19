@@ -2,7 +2,7 @@ import React from 'react';
 
 function Drawer({onCart}) {
   return (
-    <div style={{display: 'none'}} className="overlay">
+    <div className="overlay">
       <div className="drawer">
         <h2 className="mb-30 d-flex justify-between align-center">Корзина <img className="removeCartBtn cu-p" onClick={onCart} src="/img/btn-remove.svg" alt="btn-remove" /></h2>
         <div className="items">

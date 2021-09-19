@@ -18,8 +18,8 @@ function App() {
   
   return (
     <div className="wrapper clear">
-      {cartOpened && <Drawer onCart={() => setCartOpened(!cartOpened)} />}
-      <Header onCart={() => setCartOpened(!cartOpened)} />
+      {cartOpened && <Drawer onCart={onCartClick} />}
+      <Header onCart={onCartClick} />
       <div className="content p-40">
         <div className="d-flex justify-between align-center mb-40">
           <h1>Все кросовки</h1>
