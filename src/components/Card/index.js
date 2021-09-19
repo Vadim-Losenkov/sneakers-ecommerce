@@ -4,6 +4,7 @@ import styles from './Card.module.scss'
 function Card(props) {
   const [isAdded, setIsAdded] = React.useState(false)
   const onClickPlus = () => {
+    props.onPlus({props.title, props.price, props.imageUrl})
     setIsAdded(!isAdded)
   }
   
