@@ -1,10 +1,10 @@
 import React from 'react';
 
-function Drawer() {
+function Drawer({onCart}) {
   return (
     <div style={{display: 'none'}} className="overlay">
       <div className="drawer">
-        <h2 className="mb-30 d-flex justify-between align-center">Корзина <img className="removeCartBtn cu-p" src="/img/btn-remove.svg" alt="btn-remove" /></h2>
+        <h2 className="mb-30 d-flex justify-between align-center">Корзина <img className="removeCartBtn cu-p" onClick={onCart} src="/img/btn-remove.svg" alt="btn-remove" /></h2>
         <div className="items">
           <div className="cartItem d-flex align-center mb-20">
             <div style={{ backgroundImage: 'url("/img/sneakers/1.jpg")' }} className="cartItemImage"></div>

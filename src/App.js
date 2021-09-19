@@ -11,10 +11,15 @@ const arr = [
 ]
 
 function App() {
+  const [cartOpened, setCartOpened] = React.useState(false)
+  const onCartClick = () => {
+    setCartOpened(!cartOpened)
+  }
+  
   return (
     <div className="wrapper clear">
       <Drawer />
-      <Header />
+      <Header onCart={onCartClick} />
       <div className="content p-40">
         <div className="d-flex justify-between align-center mb-40">
           <h1>Все кросовки</h1>

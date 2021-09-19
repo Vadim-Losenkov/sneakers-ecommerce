@@ -1,8 +1,6 @@
 import React from 'react';
 import styles from './Card.module.scss'
 
-console.log(styles);
-
 function Card(props) {
   const [isAdded, setIsAdded] = React.useState(false)
   const onClickPlus = () => {
