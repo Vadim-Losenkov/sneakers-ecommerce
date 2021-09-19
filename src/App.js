@@ -49,7 +49,7 @@ function App() {
                 imageUrl={obj.imageUrl} 
                 price={obj.price} 
                 onFavourite={() => console.log('клик на сердечко')} 
-                onPlus={(product) => onAddToCart(product)} 
+                onPlus={() => console.log('клик на плюс')} 
               />
             ))
           }
