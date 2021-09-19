@@ -11,10 +11,18 @@ const arr = [
 ]
 
 function App() {
+  const [sneakers, setSneakers] = React.useState([])
   const [cartOpened, setCartOpened] = React.useState(false)
+  
   const onCartClick = () => {
     setCartOpened(!cartOpened)
   }
+  
+  React.useEffect(() => {
+    fetch('https://6147168365467e0017384a49.mockapi.io/sneakers')
+        .then(resp => resp.json())
+        .then(json => setSneakers(json))
+  }, [])
   
   return (
     <div className="wrapper clear">
@@ -28,9 +36,9 @@ function App() {
             <input placeholder="поиск..." />
           </div>
         </div>
-        <div className="d-flex">
+        <div className="d-flex flex-wrap">
           {
-            arr.map((obj, index) => (
+            sneakers.map((obj, index) => (
               <Card 
                 key={`${obj.name}_${index}`} 
                 name={obj.name} 
