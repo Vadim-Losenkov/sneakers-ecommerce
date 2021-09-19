@@ -18,7 +18,7 @@ function App() {
   
   return (
     <div className="wrapper clear">
-      <Drawer />
+      {cartOpened && <Drawer />}
       <Header onCart={onCartClick} />
       <div className="content p-40">
         <div className="d-flex justify-between align-center mb-40">
