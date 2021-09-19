@@ -6,13 +6,13 @@ function Drawer({onCart, items = []}) {
       <div className="drawer">
         <h2 className="mb-30 d-flex justify-between align-center">Корзина <img className="removeCartBtn cu-p" onClick={onCart} src="/img/btn-remove.svg" alt="btn-remove" /></h2>
         <div className="items">
-          {/*
+          {
             items.map(item => (
               <div className="cartItem d-flex align-center mb-20">
                 <div style={{ backgroundImage: `url("${item.imageUrl}")` }} className="cartItemImage"></div>
                 <div className="mr-20 flex">
                   <p className="mb-5">
-                    {item.title}
+                    {item.name}
                   </p>
                   <b>
                     {item.price}
@@ -21,7 +21,7 @@ function Drawer({onCart, items = []}) {
                 <img className="removeCartBtn" src="/img/btn-remove.svg" alt="btn-remove" />
               </div>
             ))
-          */}
+          }
         </div>
         <div className="cartTotalBlock">
           <ul>
