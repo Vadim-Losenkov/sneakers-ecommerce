@@ -41,7 +41,7 @@ function App() {
           </div>
         </div>
         <div className="d-flex flex-wrap">
-          {
+          {/*
             sneakers.map((obj, index) => (
               <Card 
                 key={`${obj.name}_${index}`} 
@@ -52,7 +52,7 @@ function App() {
                 onPlus={(product) => onAddToCart(product)} 
               />
             ))
-          }
+          */ }
         </div>
       </div>
     </div>
