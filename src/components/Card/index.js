@@ -3,10 +3,10 @@ import styles from './Card.module.scss'
 
 function Card({price, name, imageUrl, onFavourite, onPlus}) {
   const [isAdded, setIsAdded] = React.useState(false)
-  const onClickPlus = () => {
+  /*const onClickPlus = () => {
     onPlus({name, price, imageUrl})
     setIsAdded(!isAdded)
-  }
+  } */
   
   return (
     <div className={styles.card}>

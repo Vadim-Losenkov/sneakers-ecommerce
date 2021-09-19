@@ -14,9 +14,9 @@ function App() {
     setCartOpened(!cartOpened)
   }
   
-  const onAddToCart = (obj) => {
+  /* const onAddToCart = (obj) => {
     setCartItems([...cartItems, obj])
-  }
+  } */
   
   React.useEffect(() => {
     /*
