@@ -3,7 +3,7 @@ import Card from './components/Card/index.js';
 import Drawer from './components/Drawer.js';
 import Header from './components/Header.js';
 
-import axios from 'axios'
+// import axios from 'axios'
 
 function App() {
   const [sneakers, setSneakers] = React.useState([])
