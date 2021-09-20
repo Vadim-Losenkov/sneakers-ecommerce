@@ -14,9 +14,9 @@ function App() {
     setCartOpened(!cartOpened)
   }
   
-  /* const onAddToCart = (obj) => {
+  const onAddToCart = (obj) => {
     setCartItems([...cartItems, obj])
-  } */
+  }
   
   React.useEffect(() => {
     
@@ -49,7 +49,7 @@ function App() {
                 imageUrl={obj.imageUrl} 
                 price={obj.price} 
                 onFavourite={() => console.log('клик на сердечко')} 
-                onPlus={() => console.log('клик на плюс')} 
+                onPlus={(product) => onAddToCart(product)} 
               />
             ))
           }
