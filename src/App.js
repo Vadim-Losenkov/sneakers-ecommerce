@@ -24,7 +24,6 @@ function App() {
         .then(resp => resp.json())
         .then(json => setSneakers(json))
         
-    
     // axios.get('https://6147168365467e0017384a49.mockapi.io/sneakers').then(json => setSneakers(json))
   }, [])
   
