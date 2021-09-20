@@ -14,8 +14,10 @@ function App() {
     setCartOpened(!cartOpened)
   }
   
-  const onAddToCart = (obj) => {
-    setCartItems([...cartItems, obj])
+  const onAddToCart = (obj, isAdded) => {
+    isAdded 
+      ? setCartItems(prev => [...prev].filter(el => el !== obj))
+      : setCartItems(prev => [...prev, obj])
   }
   
   React.useEffect(() => {
@@ -48,7 +50,7 @@ function App() {
                 imageUrl={obj.imageUrl} 
                 price={obj.price} 
                 onFavourite={() => console.log('клик на сердечко')} 
-                onPlus={(product) => onAddToCart(product)} 
+                onPlus={(product, isAdded) => onAddToCart(product, isAdded)} 
               />
             ))
           }
