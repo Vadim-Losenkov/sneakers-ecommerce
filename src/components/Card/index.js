@@ -20,7 +20,7 @@ function Card({price, name, imageUrl, onFavourite, onPlus}) {
           <span>Цена: </span>
           <b>{price} руб.</b>
         </div>
-        <img className={styles.plus} onClick={onPlus} src={isAdded ? '/img/btn-checked.svg' : '/img/btn-plus.svg'} alt="component-button" />
+        <img className={styles.plus} onClick={onClickPlus} src={isAdded ? '/img/btn-checked.svg' : '/img/btn-plus.svg'} alt="component-button" />
       </div>
     </div>
   )

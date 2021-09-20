@@ -1,14 +1,15 @@
 import React from 'react';
 
 function Drawer({onCart, items = []}) {
+  console.log(items)
   return (
     <div className="overlay">
       <div className="drawer">
         <h2 className="mb-30 d-flex justify-between align-center">Корзина <img className="removeCartBtn cu-p" onClick={onCart} src="/img/btn-remove.svg" alt="btn-remove" /></h2>
         <div className="items">
           {
-            items.map(item => (
-              <div className="cartItem d-flex align-center mb-20">
+            items.map((item, index) => (
+              <div key={`${item.name}_${index}`} className="cartItem d-flex align-center mb-20">
                 <div style={{ backgroundImage: `url("${item.imageUrl}")` }} className="cartItemImage"></div>
                 <div className="mr-20 flex">
                   <p className="mb-5">
