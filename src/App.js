@@ -16,7 +16,7 @@ function App() {
   
   const onAddToCart = (obj, isAdded) => {
     isAdded 
-      ? setCartItems(prev => [...prev].filter(el => el !== obj))
+      ? setCartItems(prev => [...prev].filter(el => el.isAdded))
       : setCartItems(prev => [...prev, obj])
   }
   

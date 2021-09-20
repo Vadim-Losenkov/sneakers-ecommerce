@@ -5,7 +5,7 @@ function Card({price, name, imageUrl, onFavourite, onPlus}) {
   const [isAdded, setIsAdded] = React.useState(false)
   const onClickPlus = () => {
     setIsAdded(!isAdded)
-    onPlus({name, price, imageUrl}, isAdded)
+    onPlus({name, price, imageUrl, isAdded})
   }
   
   return (
