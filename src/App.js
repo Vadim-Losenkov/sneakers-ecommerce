@@ -8,6 +8,7 @@ import axios from 'axios'
 function App() {
   const [sneakers, setSneakers] = React.useState([])
   const [cartItems, setCartItems] = React.useState([])
+  const [inputValue, setInputValue] = React.useState('')
   const [cartOpened, setCartOpened] = React.useState(false)
   
   const onCartClick = () => {
@@ -16,17 +17,21 @@ function App() {
   
   const onAddToCart = (obj, isAdded) => {
     isAdded 
-      ? setCartItems(prev => [...prev].filter(el => el.isAdded))
+      ? setCartItems(prev => [...prev].filter(el => el !== obj))
       : setCartItems(prev => [...prev, obj])
   }
   
+  const inputValueOnChange = event => {
+    setInputValue(event.target.value)
+  }
+  
   React.useEffect(() => {
-    
+    /*
     fetch('https://6147168365467e0017384a49.mockapi.io/sneakers')
         .then(resp => resp.json())
         .then(json => setSneakers(json))
-        
-    // axios.get('https://6147168365467e0017384a49.mockapi.io/sneakers').then(json => setSneakers(json))
+        */
+    axios.get('https://6147168365467e0017384a49.mockapi.io/sneakers').then(({json}) => setSneakers(json))
   }, [])
   
   return (
@@ -35,10 +40,11 @@ function App() {
       <Header onCart={onCartClick} />
       <div className="content p-40">
         <div className="d-flex justify-between align-center mb-40">
-          <h1>Все кросовки</h1>
+          <h1>{inputValue ? inputValue : 'Все кросовки'}</h1>
           <div className="search-block d-flex">
             <img src="/img/search.svg" alt="search" />
-            <input placeholder="поиск..." />
+            <input onChange={inputValueOnChange} value={inputValue} placeholder="поиск..." />
+            <img src="/img/btn-remove.svg" className="clear" onClick={setInputValue('')} alt="clear" />
           </div>
         </div>
         <div className="d-flex flex-wrap">
