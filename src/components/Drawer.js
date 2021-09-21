@@ -19,7 +19,7 @@ function Drawer({onCart, items = []}) {
                     {item.price}
                   </b>
                 </div>
-                <img className="removeCartBtn" src="/img/btn-remove.svg" alt="btn-remove" />
+                <img className="removeCartBtn" src="/img/btn-remove.svg" onClick={() => onRemove(item.id)} alt="btn-remove" />
               </div>
             ))
           }
