@@ -54,7 +54,10 @@ function App() {
         </div>
         <div className="d-flex flex-wrap">
           {
-            sneakers.filter(item => item.title.toLowerCase().includes(inputValue.toLowerCase()))
+            sneakers.filter(item => {
+              item.title.toLowerCase()
+                  .includes(inputValue.toLowerCase())
+            })
             sneakers.map((obj, index) => (
               <Card 
                 key={`${obj.name}_${index}`} 
